@@ -52,7 +52,7 @@ OPENAI_API_KEY=sk-xxxxxxx
 
 4. Start your **MCP FastAPI server** locally:
 ```bash
-uvicorn MCPForLedAPI:app --reload
+uvicorn ChatWithMCPForLedAPI:app --reload
 ```
 
 5. Run the bridge:

@@ -1,4 +1,4 @@
-
+# This script acts as the bridge between commands and the Arduino MCP LED API.
 import os
 import requests
 import json
@@ -19,7 +19,7 @@ Given a natural language command, extract an intent and parameters.
 Supported intents:
 - TurnOnLed {color: red|yellow|green|blue}
 - TurnOffLed {}
-- SetMood {mood: calm|alert|focus|idle}
+- SetMood {mood: calm|alert|focus|idle|energetic|relaxed|sleepy|happy|excited|creative|warning|caution|busy|thinking|success|error|party|night|sunrise|sunset}
 - SetPattern {pattern: string of 4 binary digits, e.g., "1010"}
 - PowerDown {}
 - GetStatus {}

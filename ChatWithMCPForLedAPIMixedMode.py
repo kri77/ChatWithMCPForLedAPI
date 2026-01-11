@@ -1,4 +1,4 @@
-
+#This script acts as a dual-mode ChatGPT assistant and talks to the Arduino MCP LED API when needed.
 import os
 import json
 import requests
@@ -21,7 +21,7 @@ If the user's input is related to LED control, respond with a JSON intent like:
 Supported intents:
 - TurnOnLed {color: red|yellow|green|blue}
 - TurnOffLed {}
-- SetMood {mood: calm|alert|focus|idle}
+- SetMood {mood: calm|alert|focus|idle|energetic|relaxed|sleepy|happy|excited|creative|warning|caution|busy|thinking|success|error|party|night|sunrise|sunset}
 - SetPattern {pattern: string of 4 binary digits, e.g., "1010"}
 - PowerDown {}
 - GetStatus {}
